@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+  }
+  
+  /* Header */
+  header {
+    background-image: url('./images/Cherry\ Tomato\ Harissa\ Jam\ _\ The\ Maker\ Makes.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin: 20px 0 0;
+  }
+  
+  /* Sections */
+  section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Intro Section */
+  .intro {
+    text-align: center;
+  }
+  
+  .category {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .category img {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .category h3 {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .category:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Recipe List Section */
+  .recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .recipe {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .recipe img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+  
+  .recipe h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .recipe p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .recipe a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .recipe:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Recipe Details Section */
+  .recipe-details {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .recipe-details img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+  }
+  
+  .recipe-details h2 {
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .recipe-details ul, .recipe-details ol {
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .recipe-details ul li, .recipe-details ol li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: auto;
+  }
+  
